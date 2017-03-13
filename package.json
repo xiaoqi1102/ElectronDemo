@@ -1,0 +1,22 @@
+{
+  "name": "electron_demo",
+  "version": "1.0.0",
+  "description": "try to use electron ",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoqi1102/ElectronDemo.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "xiaoqi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoqi1102/ElectronDemo/issues"
+  },
+  "homepage": "https://github.com/xiaoqi1102/ElectronDemo#readme"
+}
