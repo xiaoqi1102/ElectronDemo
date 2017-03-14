@@ -5,14 +5,15 @@
   "main": "app.transform.js",
   "scripts": {
     "test": "npm run test",
-    "pack": "babel app.js -o app.transform.js && electron-packager . DemoApp --Windows --electron-version=1.6.2 --ignore .babelrc",
+    "pack": "babel app.js -o app.transform.js && electron-packager . DemoApp --Windows --overwrite --electron-version=1.6.2 --ignore .babelrc ",
     "dist": "build"
   },
   "build": {
     "appId": "232323232123456456",
     "win": {
       "category": "Network"
-    }
+    },
+    "npmRebuild" : true
   },
   "repository": {
     "type": "git",

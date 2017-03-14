@@ -8,4 +8,9 @@ app.on('ready',()=>{
 
     })*/
    win.loadURL('http://github.com')
-})
+});
+app.on('window-all-closed',()=>{
+    if (process.platform != 'darwin') {
+        app.quit();
+    }
+});
