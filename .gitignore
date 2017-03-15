@@ -1,3 +1,4 @@
 .idea
 node_modules
 DemoApp-win32-x64
+app.transform.js

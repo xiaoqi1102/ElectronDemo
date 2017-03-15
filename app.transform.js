@@ -3,10 +3,10 @@
 var _electron = require('electron');
 
 _electron.app.on('ready', function () {
-    var win = new _electron.BrowserWindow({ width: 800, height: 600 });
+    var win = new _electron.BrowserWindow({ width: 1400, height: 800 });
     /* globalShortcut.register('CommandOrControl+Y',()=>{
        })*/
-    win.loadURL('http://github.com');
+    win.loadURL('http://admin.xxs120.com');
 }); /**
      * Created by xiaoqi on 2017/3/13.
      */

@@ -3,11 +3,11 @@
  */
 import {app,globalShortcut,BrowserWindow} from 'electron';
 app.on('ready',()=>{
-    let win =new BrowserWindow({width:800,height:600});
+    let win =new BrowserWindow({width:1400,height:800});
    /* globalShortcut.register('CommandOrControl+Y',()=>{
 
     })*/
-   win.loadURL('http://github.com')
+   win.loadURL('http://admin.xxs120.com')
 });
 app.on('window-all-closed',()=>{
     if (process.platform != 'darwin') {
